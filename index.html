@@ -26,7 +26,27 @@
                     <a href="about.html" class="nav-item nav-link text-white">About</a>
                 </div>
                     <div class="navbar-nav ms-auto">
-                        <a href="#" class="nav-item nav-link text-white btn bg-dark">Sign-in</a>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#samplemodal">Sign Up</button>
+                        <div class="modal" id="samplemodal">
+                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Sign up</h5>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" required placeholder="Enter Email">
+                                        <label for="pass">Password</label>
+                                        <input type="password" class="form-control" name="password" id="password" required placeholder="Enter Password">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" type="submit">Save</button>
+                                        <button class="btn btn-danger" data-bs-dismiss="modal" type="button">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
             </div>
         </nav>
@@ -38,7 +58,7 @@
                 <div style="color:black">
                     <img src="image/saga/eastblue.jpg" alt="" width="100%">
                     <br>
-                    <h1>East Blue Arc</h1>
+                    <h1>East Blue Saga</h1>
                     <p>Monkey D. Luffy meets Shanks as a young boy living in East Blue. This is where he recruits most of his crew and, ultimately, where the adventure begins. This saga is made up of six story arcs.</p>
                     <p>The saga starts off with a flashback of Gol D. Roger’s execution. Before he dies, he tells the crowds to go out and search for his treasure. This sparked the Golden Age of Pirates in which countless pirates raise their flags and set off to find One Piece.</p>
                     <!-- Modal -->
@@ -47,7 +67,7 @@
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title">East Blue Arc</h5>
+                                        <h5 class="modal-title">East Blue Saga</h5>
                                         <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
                                     </div>
                                     <div class="modal-body text-center">
@@ -69,7 +89,60 @@
                                                         <p>
                                                             7 Chapters, 4 Episodes <br> The Romance Dawn Arc, also referred to as the Captain Morgan Arc, is the first story arc in the East Blue Saga. This arc is made up of three stories in one. The first is the story of how Monkey D. Luffy gained his Devil Fruit abilities, telling of his driving force to become a pirate. The second story is his meeting with a boy named Koby and helping him escape from a female pirate named Alvida. In the final story, Luffy tries to get the Pirate Hunter, Roronoa Zoro, to join his crew while contending with the Marine Captain Axe-Hand Morgan.
                                                         </p>
-                                                        <img src="image/saga/shanks.gif" alt="" width="100%">
+                                                        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                                                            <!-- data-bs-interval="3000" data-bs-pause="hover" -->
+                                                                <ol class="carousel-indicators">
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="3"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="4"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="5"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="6"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="7"></li>
+                                                                    <li data-bs-target="#carousel" data-bs-slide-to="8"></li>
+                                                                </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="image/saga/romance/shanks.gif" alt="image" class="d-block w-100">
+                                                                   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance4.jpg" alt="image" class="d-block w-100">
+                                                                    
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance2.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance5.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance6.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance3.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance9.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance8.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/romance/romance7.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <!-- Controls -->
+                                                            <a href="#carousel" class="carousel-control-prev" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                            </a>
+                                                            <a href="#carousel" class="carousel-control-next" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                            </a>
+                                                        </div> 
+                                                        
                                                     </div>
                                                 </div>
                                                 <div class="tab-content">
@@ -79,7 +152,50 @@
                                                             14 Chapters, 5 episodes <br> 
                                                             The Orange Town Arc, also referred to as the Buggy the Clown Arc, is the second story arc in the East Blue Saga. The arc finds Monkey D. Luffy and Roronoa Zoro unwittingly crossing paths and butting heads with the pirate clown Buggy and his crew, as well as meeting their future navigator, Nami.
                                                         </p>
-                                                        <img src="image/saga/buggy.gif" alt="" width="100%">
+                                                        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                                                            <!-- data-bs-interval="3000" data-bs-pause="hover" -->
+                                                                <ol class="carousel-indicators">
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></li>
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="3"></li>
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="4"></li>
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="5"></li>
+                                                                    <li data-bs-target="#carousel1" data-bs-slide-to="6"></li>
+                                                                </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="image/saga/orange/buggy.gif" alt="image" class="d-block w-100">
+                                                                   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/orange/orange.jpg" alt="image" class="d-block w-100">   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/orange/orange2.jpg" alt="image" class="d-block w-100">   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/orange/orange3.jpg" alt="image" class="d-block w-100">   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/orange/orange4.jpg" alt="image" class="d-block w-100">   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/orange/orange5.jpg" alt="image" class="d-block w-100">   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/orange/orange6.jpg" alt="image" class="d-block w-100">   
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <!-- Controls -->
+                                                            <a href="#carousel1" class="carousel-control-prev" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                            </a>
+                                                            <a href="#carousel1" class="carousel-control-next" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                            </a>
+                                                        </div> 
                                                     </div>
                                                 </div>
                                                 <div class="tab-content">
@@ -89,7 +205,56 @@
                                                             20 Chapters, 10 episodes. <br>
                                                             The Syrup Village Arc, also referred to as the Captain Kuro Arc, is the third story arc in the East Blue Saga. Monkey D. Luffy, Roronoa Zoro, and Nami arrive at Syrup Village looking for a ship, where they meet Usopp, the local village liar. After they learn of a secret plot against Usopp’s friend Kaya, they decide they have no choice but to help him defeat Captain Kuro in order to save her.
                                                         </p>
-                                                        <img src="image/saga/ussop.gif" alt="" width="100%">
+                                                        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                                            <!-- data-bs-interval="3000" data-bs-pause="hover" -->
+                                                                <ol class="carousel-indicators">
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="0" class="active"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="1"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="2"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="3"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="4"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="5"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="6"></li>
+                                                                    <li data-bs-target="#carousel2" data-bs-slide-to="7"></li>
+                                                                </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="image/saga/syrup/ussop.gif" alt="image" class="d-block w-100">
+                                                                   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup6.jpg" alt="image" class="d-block w-100">
+                                                                    
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup4.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup2.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup3.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup5.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/syrup/syrup7.gif" alt="image" class="d-block w-100">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <!-- Controls -->
+                                                            <a href="#carousel2" class="carousel-control-prev" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                            </a>
+                                                            <a href="#carousel2" class="carousel-control-next" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                            </a>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                                 <div class="tab-content">
@@ -99,7 +264,59 @@
                                                             27 Chapters, 12 Episodes <br> 
                                                             The Baratie Arc is the fourth story arc in the East Blue Saga. The Straw Hats meet Johnny and Yosaku, who direct them to the restaurant ship Baratie, a sort of “floating oasis” in the middle of the ocean, where they meet Sanji. However, a pirate admiral named Don Krieg sets his sights on the Baratie as a replacement for his devastated fleet, and the restaurant soon comes under siege.
                                                         </p>
-                                                        <img src="image/saga/sanji.gif" alt="" width="100%">
+                                                        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                                                            <!-- data-bs-interval="3000" data-bs-pause="hover" -->
+                                                                <ol class="carousel-indicators">
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="0" class="active"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="1"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="2"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="3"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="4"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="5"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="6"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="7"></li>
+                                                                    <li data-bs-target="#carousel3" data-bs-slide-to="8"></li>
+                                                                </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="image/saga/baratie/baratie.jpg" alt="image" class="d-block w-100">
+                                                                   
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/sanji.gif" alt="image" class="d-block w-100">
+                                                                    
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie6.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie8.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie3.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie7.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie4.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie5.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/baratie/baratie2.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <!-- Controls -->
+                                                            <a href="#carousel3" class="carousel-control-prev" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                            </a>
+                                                            <a href="#carousel3" class="carousel-control-next" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="tab-content">
@@ -109,7 +326,51 @@
                                                         27 Chapters, 14 Episodes <br>
                                                         The Arlong Park Arc, also referred to as the Arlong Arc, is the fifth story arc in the East Blue Saga. After Nami steals the Going Merry, Roronoa Zoro, Usopp, and later Monkey D. Luffy and Sanji (along with Johnny and Yosaku) set after her and wind up in Cocoyasi Village, Nami’s hometown ruled by the tyrannical Fish-Man Arlong. It is here that Nami’s past and true motives come to light.
                                                        </p>
-                                                        <img src="image/saga/arlong.gif" alt="" width="100%">
+                                                        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                                                            <!-- data-bs-interval="3000" data-bs-pause="hover" -->
+                                                                <ol class="carousel-indicators">
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="0" class="active"></li>
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="1"></li>
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="2"></li>
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="3"></li>
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="4"></li>
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="5"></li>
+                                                                    <li data-bs-target="#carousel4" data-bs-slide-to="6"></li>
+                                                                </ol>
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="image/saga/arlong/arlongpark.jpg" alt="image" class="d-block w-100">
+                                                                
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/arlong/arlong6.jpg" alt="image" class="d-block w-100">
+                                                                    
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/arlong/arlong3.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/arlong/arlong.gif" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/arlong/arlong4.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/arlong/arlong5.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="image/saga/arlong/arlong.jpg" alt="image" class="d-block w-100">
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <!-- Controls -->
+                                                            <a href="#carousel4" class="carousel-control-prev" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"></span>
+                                                            </a>
+                                                            <a href="#carousel4" class="carousel-control-next" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"></span>
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="tab-content">
@@ -119,7 +380,55 @@
                                                         5 chapters, 7 episodes <br>
                                                         The Loguetown Arc is the sixth and final story arc in the East Blue Saga. The Straw Hat Pirates stop at the city of Loguetown, where Gol D. Roger was born and executed, to get supplies before heading to the Grand Line. However, a powerful Marine Captain and some old enemies stand in their way.
                                                        </p>
-                                                        <img src="image/saga/roger.gif" alt="" width="100%">
+                                                       <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                                                        <!-- data-bs-interval="3000" data-bs-pause="hover" -->
+                                                            <ol class="carousel-indicators">
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="0" class="active"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="1"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="2"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="3"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="4"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="5"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="6"></li>
+                                                                <li data-bs-target="#carousel5" data-bs-slide-to="7"></li>
+                                                            </ol>
+                                                        <div class="carousel-inner">
+                                                            <div class="carousel-item active">
+                                                                <img src="image/saga/logue/loguetown.jpg" alt="image" class="d-block w-100">
+                                                            
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/roger.gif" alt="image" class="d-block w-100">
+                                                                
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/roger2.jpg" alt="image" class="d-block w-100">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/loguetown5.jpg" alt="image" class="d-block w-100">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/loguetown3.jpg" alt="image" class="d-block w-100">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/loguetown4.jpg" alt="image" class="d-block w-100">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/loguetown2.jpg" alt="image" class="d-block w-100">
+                                                            </div>
+                                                            <div class="carousel-item">
+                                                                <img src="image/saga/logue/loguetown6.jpg" alt="image" class="d-block w-100">
+                                                            </div>
+                                                        </div>
+                                                
+                                                        <!-- Controls -->
+                                                        <a href="#carousel5" class="carousel-control-prev" data-bs-slide="prev">
+                                                            <span class="carousel-control-prev-icon"></span>
+                                                        </a>
+                                                        <a href="#carousel5" class="carousel-control-next" data-bs-slide="next">
+                                                            <span class="carousel-control-next-icon"></span>
+                                                        </a>
+                                                    </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -186,13 +495,34 @@
         <video class="opacity-50" src="vid/vid1.mp4" autoplay muted loop width="100%"></video>
         <h1 class="text-white text-center position-absolute start-0 bottom-0">Join Our Community 
             <span>
-                <a href="#" class="nav-link btn border text-info"> Sign up </a></h1>
+                <a href="#" class="nav-link btn border text-info" data-bs-toggle="modal" data-bs-target="#samplemodal"> Sign up </a></h1>
             </span>
+            <div class="modal" id="samplemodal">
+                <div class="modal-dialog modal-dialog-centered modal-md">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sign up</h5>
+                            <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" id="email" required placeholder="Enter Email">
+                            <label for="pass">Password</label>
+                            <input type="password" class="form-control" name="password" id="password" required placeholder="Enter Password">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" type="submit">Save</button>
+                            <button class="btn btn-danger" data-bs-dismiss="modal" type="button">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
+    
 
     <!-- Footer -->
     <footer>
-        <div class="footer fix-bottom">
+        <div class="footer fix-bottom" style="background-color: black;">
             <nav>
                 <div class="nav flex-xxl-column">
                     <a href="onepiecemain.html" class="nav-item nav-link text-white">Copyright&copy;</a>

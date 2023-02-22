@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character</title>
+    <title>Event</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <style>
         *{
             box-sizing: border-box;
@@ -15,17 +16,17 @@
     </style>
 </head>
 <body>
-    <div class="container-fluid" style="background-color: black;">
+    <div class="container-fluid border-bottom" style="background-color: black;">
         <nav class="navbar navbar-expand-md">
-            <a href="onepiecemain.html" class="navbar-brand"><img src="image/home/header.jpg" alt="logo" width="150"></a>
+            <a href="index.html" class="navbar-brand"><img src="image/home/header.jpg" alt="logo" width="150"></a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarcollapse">
-                <div class="navbar-nav">
-                    <a href="onepiecemain.html" class="nav-item nav-link text-white">Home</a>
+                <div class="navbar-nav nav-pills text-center">
+                    <a href="index.html" class="nav-item nav-link text-white">Home</a>
                     <a href="event.html" class="nav-item nav-link text-white">Event</a>
-                    <a href="character.html" class="nav-item nav-link text-white">Character</a>
+                    <a href="character.html" class="nav-item active nav-link text-white">Character</a>
                     <a href="product.html" class="nav-item nav-link text-white">Product</a>
                     <a href="about.html" class="nav-item nav-link text-white">About</a>
                 </div>
@@ -36,6 +37,607 @@
         </nav>
     </div>
 
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#luffy" class="nav-link active" data-bs-toggle="tab">Monkey D. Luffy</a></li>
+                        <li class="nav-item"><a href="#crewstraw" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="luffy">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Monkey D. Luffy</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>Gomu Gomu no Mi</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Captain</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/luffy1.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="crewstraw">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#zoro" class="nav-link active" data-bs-toggle="tab">Roronoa Zoro</a></li>
+                        <li class="nav-item"><a href="#zoro1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="zoro">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Roronoa Zoro</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>None</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Vice Captain</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/zoro.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="zoro1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#nami" class="nav-link active" data-bs-toggle="tab">"Cat Burglar" Nami</a></li>
+                        <li class="nav-item"><a href="#nami1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="nami">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>"Cat Burglar" Nami</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>None</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Navigator</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/nami.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="nami1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#ussop" class="nav-link active" data-bs-toggle="tab">"Soge King" Ussop</a></li>
+                        <li class="nav-item"><a href="#ussop1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="ussop">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Soge King Ussop</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>Non</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Sniper</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/ussop.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="ussop1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#sanji" class="nav-link active" data-bs-toggle="tab">Vinsmoke Sanji</a></li>
+                        <li class="nav-item"><a href="#sanji1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="sanji">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Vinsmoke Sanji</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>None</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Chef</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/sanji.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="sanji1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#chopper" class="nav-link active" data-bs-toggle="tab">Tony Tony Copper</a></li>
+                        <li class="nav-item"><a href="#chopper1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="chopper">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Tony Tony Chopper</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>17</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>Hito Hito no Mi</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Doctor</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/chopper.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="chopper1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#robin" class="nav-link active" data-bs-toggle="tab">Nico Robin</a></li>
+                        <li class="nav-item"><a href="#robin1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="robin">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Nico Robin</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>30</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>Hana Hana no Mi</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Archeologist</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/robin.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="robin1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#chopper" class="nav-link active" data-bs-toggle="tab">Tony Tony Copper</a></li>
+                        <li class="nav-item"><a href="#chopper1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="chopper">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Cutty Flam</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>Non</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Shipwrite</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/franky.png" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="chopper">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-lg-4">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item"><a href="#jinbei" class="nav-link active" data-bs-toggle="tab">Helsman jinbei</a></li>
+                        <li class="nav-item"><a href="#jinbei1" class="nav-link" data-bs-toggle="tab">Crew</a></li>
+                    </ul>
+                </div>
+                <div class="card-body">
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="jinbei">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Name</th>
+                                            <td>Cutty Flam</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Age</th>
+                                            <td>36</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Devil Fruit</th>
+                                            <td>Non</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Role</th>
+                                            <td>Navigator</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-3">
+                                    <img src="image/character/jinbei.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane show" id="jinbei1">
+                            <div class="row">
+                                <div class="col">
+                                    <table class="table">
+                                        <tr>
+                                            <th>Crew</th>
+                                            <td>Strawhat Pirates</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Crew Members</th>
+                                            <td>10</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <img src="image/character/strawhat.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer fix-bottom" style="background-color: black;">
+            <nav>
+                <div class="nav flex-xxl-column">
+                    <a href="onepiecemain.html" class="nav-item nav-link text-white">Copyright&copy;</a>
+                    <a href="event.html" class="nav-item nav-link text-white">All Rights Reserved 2023</a>
+                    <a href="character.html" class="nav-item nav-link text-white ms-auto">
+                        Follow us on: &nbsp; <i class="bi bi-facebook text-primary"></i> &nbsp; 
+                        <i class="bi bi-instagram text-danger"></i> &nbsp; 
+                        <i class="bi bi-twitter" style="color: aqua;"></i> &nbsp;
+                        <i class="bi bi-twitch" style="color: blueviolet;"></i>&nbsp;
+                    </a>
+                </div>
+                <div>
+
+                </div>
+            </nav>
+        </div>
+    </footer>
 
 
 
