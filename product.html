@@ -31,134 +31,201 @@
                     <a href="about.html" class="nav-item nav-link text-white">About</a>
                 </div>
                     <div class="navbar-nav ms-auto">
-                        <a href="#" class="nav-item nav-link text-white btn bg-dark">Sign-in</a>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#samplemodal">Sign Up</button>
+                        <div class="modal" id="samplemodal">
+                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Sign up</h5>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" required placeholder="Enter Email">
+                                        <label for="pass">Password</label>
+                                        <input type="password" class="form-control" name="password" id="password" required placeholder="Enter Password">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" type="submit">Sign Up</button>
+                                        <button class="btn btn-danger" data-bs-dismiss="modal" type="button">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
             </div>
         </nav>
     </div>
 
+    <div class="modal" id="collect">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Checkout</h5>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h2>One Piece Collectibles</h2>
+                    <h4 class="text-danger">20.00$</h4>
+                </div>
+                <div class="modal-footer">
+                    <div class="input-group">
+                        <span class="input-group-text border-0"><a href="#" class="nav-item nav-link" style="font-size:25px"><i class="bi bi-dash-circle-fill"></i></a></span>
+                        <input class="form-control" type="text" name="prodtext" id="prodtext" value="1">
+                        <span class="input-group-text border-0"><a href="#" class="nav-item nav-link" style="font-size:25px"><i class="bi bi-plus-circle-fill"></i></a></span>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Buy</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal" type="button">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="collect2">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Checkout</h5>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h2>One Piece Collection Figures</h2>
+                    <h4 class="text-danger">100.00$</h4>
+                </div>
+                <div class="modal-footer">
+                    <div class="input-group">
+                        <span class="input-group-text border-0"><a href="#" class="nav-item nav-link" style="font-size:25px"><i class="bi bi-dash-circle-fill"></i></a></span>
+                        <input class="form-control" type="text" name="prodtext" id="prodtext" value="1">
+                        <span class="input-group-text border-0"><a href="#" class="nav-item nav-link" style="font-size:25px"><i class="bi bi-plus-circle-fill"></i></a></span>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Buy</button>
+                    <button class="btn btn-danger" data-bs-dismiss="modal" type="button">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container-fluid text-center">
         <div class="card">
             <div class="row">
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure1.jpg" alt="" width="100%">
                     <h3>Roronoa Zoro</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure2.jpg" alt="" width="100%">
                     <h3>Gol D. Roger</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure3.jpg" alt="" width="100%">
                     <h3>Portgas D. Ace</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure4.jpg" alt="" width="100%">
                     <h3>Nico Robin</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure5.jpg" alt="" width="100%">
                     <h3>Monkey D. Lufy</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure6.jpg" alt="" width="100%">
                     <h3>Luffy (Gear 4th)</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure7.jpg" alt="" width="100%">
                     <h3>Nightmare Luffy</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure8.jpg" alt="" width="100%">
                     <h3>Samurai Luffy</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure9.jpg" alt="" width="100%">
                     <h3>Kaidou</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure10.jpg" alt="" width="100%">
                     <h3>Monkey D. Luffy</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure11.jpg" alt="" width="100%">
                     <h3>Yamato</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure12.jpg" alt="" width="100%">
                     <h3>Dracule Mihawk</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figure13.jpg" alt="" width="100%">
                     <h3>Samurai Luffy</h3>
-                    <a href="#" class="btn btn-danger">20.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect">20.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection1.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection2.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection3.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection4.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection5.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection6.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection7.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection8.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection9.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection10.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
-                <div class="card-body col-lg-3">
+                <div class="card-body col-lg-3 col-md-6">
                     <img src="image/product/figure/figurecollection11.jpg" alt="" width="100%">
                     <h3>Collection Figures</h3>
-                    <a href="#" class="btn btn-danger">100.00$</a>
+                    <a href="#"  class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#collect2">100.00$</a>
                 </div>
             </div>
         </div>

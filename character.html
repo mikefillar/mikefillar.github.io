@@ -31,7 +31,27 @@
                     <a href="about.html" class="nav-item nav-link text-white">About</a>
                 </div>
                     <div class="navbar-nav ms-auto">
-                        <a href="#" class="nav-item nav-link text-white btn bg-dark">Sign-in</a>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#samplemodal">Sign Up</button>
+                        <div class="modal" id="samplemodal">
+                            <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Sign up</h5>
+                                        <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" name="email" id="email" required placeholder="Enter Email">
+                                        <label for="pass">Password</label>
+                                        <input type="password" class="form-control" name="password" id="password" required placeholder="Enter Password">
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary" type="submit">Sign Up</button>
+                                        <button class="btn btn-danger" data-bs-dismiss="modal" type="button">Cancel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
             </div>
         </nav>
