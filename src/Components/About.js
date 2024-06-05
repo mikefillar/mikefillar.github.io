@@ -4,7 +4,7 @@ import illustration from "../img/Code typing-bro.png";
 const About = () => {
   return (
     <section
-      className="flex flex-col md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 h-5/6 transition-all duration-500 ease-in-out bg-color-body"
+      className="flex flex-col md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 transition-all duration-500 ease-in-out bg-color-body h-screen"
       id="about"
     >
       <div className="flex text-left w-2/3 md:w-6/12 gap-6 rounded overflow-hidden object-contain">
