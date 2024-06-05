@@ -22,9 +22,9 @@ const HomeNew = () => {
     <div className="h-screen">
       {/* <Header /> */}
       <main>
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center m-5 px-28 semilarge:px-32 semilarge:m-15 md:m-10 md:p-5 semilarge:gap-24 gap-5 md:gap-20 h-auto transition-all duration-500 ease-in-out">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 h-auto transition-all duration-500 ease-in-out">
           <div className="flex flex-col gap-7 w-full md:w-6/12 text-center md:pr-10 md:text-left">
-            <h1 className=" text-gray-800 font-bold text-2xl sm:text-3xl md:text-4xl semilarge:text-altxl semilarge:leading-none">
+            <h1 className=" text-gray-800 font-bold text-2xl sm:text-3xl md:text-4xl semilarge:text-4xl lg:text-altxl semilarge:leading-none">
               Full-stack Web Developer{" "}
               <span>
                 <img
@@ -34,7 +34,7 @@ const HomeNew = () => {
                 />
               </span>
             </h1>
-            <p className="">
+            <p className="text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
               Hi, I'm Mike Fillar. A passionate Full-stack Web Developer based
               in Bulacan, Philippines.
             </p>
@@ -43,12 +43,22 @@ const HomeNew = () => {
               <ion-icon name="logo-linkedin"></ion-icon>
             </div>
             <div className="overflow-hidden">
-              <ul className="flex animate-loop-scroll gap-5">
+              <ul className="flex animate-loop-scroll gap-5 hover:paused">
                 {links.map((link) => (
-                  <li key={link.linkName}>{link.linkName}</li>
+                  <li
+                    className="text-gray-500 hover:text-blue-400 cursor-pointer"
+                    key={link.linkName}
+                  >
+                    {link.linkName}
+                  </li>
                 ))}
                 {links.map((link) => (
-                  <li key={link.linkName}>{link.linkName}</li>
+                  <li
+                    className="text-gray-500 hover:text-blue-400 cursor-pointer"
+                    key={link.linkName}
+                  >
+                    {link.linkName}
+                  </li>
                 ))}
               </ul>
             </div>
