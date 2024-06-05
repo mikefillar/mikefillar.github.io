@@ -22,7 +22,7 @@ const HomeNew = () => {
     <div className="h-screen">
       {/* <Header /> */}
       <main>
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 h-auto transition-all duration-500 ease-in-out">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 h-full transition-all duration-500 ease-in-out">
           <div className="flex flex-col gap-7 w-full md:w-6/12 text-center md:pr-10 md:text-left">
             <h1 className=" text-gray-800 font-bold text-2xl sm:text-3xl md:text-4xl semilarge:text-4xl lg:text-altxl semilarge:leading-none">
               Full-stack Web Developer{" "}

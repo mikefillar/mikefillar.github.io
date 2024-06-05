@@ -1,32 +1,30 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       fontFamily: {
-        body: ['Poppins']
+        body: ["Poppins"],
       },
       fontSize: {
-        'altxl': '3.2rem'
+        altxl: "3.2rem",
       },
       animation: {
-        'loop-scroll': 'loop-scroll 20s linear infinite'
+        "loop-scroll": "loop-scroll 20s linear infinite",
       },
       keyframes: {
-        'loop-scroll': {
-          from: {transform: "translateX(0)"},
-          to: {transform: "translateX(-100%)"},
-        }
+        "loop-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
       },
       colors: {
-        'color-body': '#F8F8F8'
+        "color-body": "#F8F8FF",
       },
       screens: {
-        'semilarge' : '900px'
-      }
+        semilarge: "900px",
+      },
     },
   },
   plugins: [],
-}
+};
