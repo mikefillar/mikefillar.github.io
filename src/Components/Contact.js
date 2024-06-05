@@ -40,7 +40,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <footer className="flex justify-center items-center md:justify-between gap-10 semilarge:m-15 semilarge:px-32 md:p-5  transition-all duration-500 ease-in-out bg-gray-800 h-1/5">
+      <footer className="flex justify-center items-center md:justify-between gap-10 p-5 semilarge:m-15 semilarge:px-32 md:p-5  transition-all duration-500 ease-in-out bg-gray-800 h-1/5 w-full">
         <h2 className="font-bold text-white">
           Copyright &copy; 2024. All rights reserved
         </h2>
