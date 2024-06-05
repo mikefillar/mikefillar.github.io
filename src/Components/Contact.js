@@ -46,10 +46,14 @@ const Contact = () => {
         </h2>
         <div className="flex gap-5">
           <a href="/">
-            <ion-icon id="footericon" name="logo-github"></ion-icon>
+            <a href="https://www.linkedin.com/in/mike-fillar/" target="blank">
+              <ion-icon id="footericon" name="logo-linkedin"></ion-icon>
+            </a>
           </a>
           <a href="/">
-            <ion-icon id="footericon" name="logo-linkedin"></ion-icon>
+            <a href="https://github.com/mikefillar" target="blank">
+              <ion-icon id="footericon" name="logo-github"></ion-icon>
+            </a>
           </a>
         </div>
       </footer>

@@ -38,9 +38,21 @@ const HomeNew = () => {
               Hi, I'm Mike Fillar. A passionate Full-stack Web Developer based
               in Bulacan, Philippines.
             </p>
-            <div className="text-3xl text-gray-600 flex justify-center items-center md:justify-start md:items-start gap-4">
-              <ion-icon name="logo-github"></ion-icon>
-              <ion-icon name="logo-linkedin"></ion-icon>
+            <div className="flex justify-center items-center md:justify-start md:items-start gap-4">
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/mike-fillar/"
+                className="text-gray-600 hover:text-blue-400 text-3xl"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a
+                target="blank"
+                href="https://github.com/mikefillar"
+                className="text-gray-600 hover:text-blue-400 text-3xl"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
             </div>
             <div className="overflow-hidden">
               <ul className="flex animate-loop-scroll gap-5 hover:paused">
