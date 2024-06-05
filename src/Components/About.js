@@ -20,7 +20,7 @@ const About = () => {
           create and develop clean website for the users.
         </p>
         <p className=" text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
-          My main stack currently is HTML, CSS, JavaScript, TailwindCSS,
+          My tech stack currently is HTML, CSS, JavaScript, TailwindCSS,
           Bootstrap5, Handlebar.JS, React.JS, Node.JS, Express.JS, PHP, MySQL,
           Laragon.
         </p>
