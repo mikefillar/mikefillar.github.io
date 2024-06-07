@@ -11,7 +11,7 @@ const Contact = () => {
           Contact
         </h1>
         <h2 className=" font-bold text-gray-800 text-2xl text-center md:text-left">
-          Hire me!
+          Hit me up!
         </h2>
         <div className="flex flex-col md:flex-row gap-8 mt-8">
           <div className="flex flex-col md:flex-row justify-center items-center gap-1 md:gap-4 text-center md:text-left">
