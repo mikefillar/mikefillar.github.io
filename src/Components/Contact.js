@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <section
-      className="flex flex-col justify-center items-center md:justify-end md:items-start m-5 px-28 semilarge:m-15 semilarge:px-32 md:m-10 md:p-5 semilarge:gap-24 gap-5 md:gap-20 h-full semilarge:h-4/5 transition-all duration-500 ease-in-out bg-color-body"
+      className="flex flex-col justify-center items-center md:justify-end md:items-start m-5 p-3 sm:m-7 sm:p-7 md:p-15 semilarge:m-15 semilarge:px-32 semilarge:gap-24 gap-5 md:gap-20 h-full semilarge:h-4/5 transition-all duration-500 ease-in-out bg-color-body"
       id="contact"
     >
       <div className="flex flex-col gap-3 md:gap-5">
