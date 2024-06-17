@@ -15,7 +15,7 @@ const HomeNew = () => {
     { linkName: "Express.JS" },
     { linkName: "Node.JS" },
     { linkName: "MySQL" },
-    { linkName: "Laragon" },
+    { linkName: "Laravel" },
   ];
   return (
     <main>
