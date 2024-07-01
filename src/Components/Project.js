@@ -9,7 +9,12 @@ const Project = () => {
       className="grid md:grid-cols-2 md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 h-full"
       id="project"
     >
-      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left">
+      <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
+        <a className="cursor-pointer">
+          <img className="" src={project2} alt="coding" />
+        </a>
+      </div>
+      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left mb-10 md:mb-0">
         <a className="text-blue-500 font-bold text-2xl cursor-pointer">
           Student Management System
         </a>
@@ -40,18 +45,13 @@ const Project = () => {
           <li className="text-gray-600 text-sm sm:text-base">Cookie-parser</li>
         </ul>
       </div>
-      <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
-        <a className="cursor-pointer">
-          <img className="" src={project2} alt="coding" />
-        </a>
-      </div>
       {/* car rental */}
       <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
         <a href="https://mikefillar.github.io/car-rental-ph" target="_blank">
           <img className="" src={project1} alt="coding" />
         </a>
       </div>
-      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left">
+      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left mb-10 md:mb-0">
         <a
           href="https://mikefillar.github.io/car-rental-ph"
           target="_blank"
