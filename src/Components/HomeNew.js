@@ -53,6 +53,13 @@ const HomeNew = () => {
             >
               <ion-icon name="logo-github"></ion-icon>
             </a>
+            <a
+              target="blank"
+              href="https://www.canva.com/design/DAGAKInMz40/pFVZ8iDRUUa2DybidaCcGA/view?utm_content=DAGAKInMz40&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
+              className="text-gray-600 hover:text-blue-400 text-3xl"
+            >
+              <ion-icon name="document-outline"></ion-icon>
+            </a>
           </div>
           <div className="overflow-hidden">
             <ul className="flex animate-loop-scroll gap-5 hover:paused">
