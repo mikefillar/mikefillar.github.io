@@ -92,7 +92,7 @@ const Project = () => {
       </div>
       {/* e-magazine */}
       <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
-        <a href="https://mikefillar.github.io/car-rental-ph" target="_blank">
+        <a href="https://mikefillar.github.io/newproject" target="_blank">
           <img className="" src={project} alt="coding" />
         </a>
       </div>
