@@ -11,7 +11,7 @@ const HomeNew = () => {
     { linkName: "TailwindCSS" },
     { linkName: "React.JS" },
     { linkName: "PHP" },
-    { linkName: "Handlebar.JS" },
+    { linkName: "Handlebars.JS" },
     { linkName: "Express.JS" },
     { linkName: "Node.JS" },
     { linkName: "MySQL" },

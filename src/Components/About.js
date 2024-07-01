@@ -16,12 +16,12 @@ const About = () => {
           Full-stack web developer based in Bulacan, Philippines.
         </h2>
         <p className=" text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
-          Hey, my name is Mike, and I'm a full-stack developer. My passion is to
-          create and develop clean website for the users.
+          Hey, my name is Mike, and I'm a full-stack developer. I'm dedicated to
+          create and develop clean website for the clients.
         </p>
         <p className=" text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
           My tech stack currently is HTML, CSS, JavaScript, TailwindCSS,
-          Bootstrap5, Handlebar.JS, React.JS, Node.JS, Express.JS, PHP, MySQL,
+          Bootstrap5, React.JS, Handlebars.JS, Node.JS, Express.JS, PHP, MySQL,
           and Laravel.
         </p>
       </div>
