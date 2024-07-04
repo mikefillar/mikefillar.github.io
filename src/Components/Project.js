@@ -16,7 +16,11 @@ const Project = () => {
         </a>
       </div>
       <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left mb-10 md:mb-0">
-        <a className="text-blue-500 font-bold text-2xl cursor-pointer">
+        <a
+          href="https://school-of-school.onrender.com/"
+          target="_blank"
+          className="text-blue-500 font-bold text-2xl"
+        >
           Student Management System
         </a>
         <p className="text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
