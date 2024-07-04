@@ -11,7 +11,7 @@ const Project = () => {
       id="project"
     >
       <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
-        <a className="cursor-pointer">
+        <a href="https://school-of-school.onrender.com/" target="_blank">
           <img className="" src={project2} alt="coding" />
         </a>
       </div>
@@ -28,6 +28,13 @@ const Project = () => {
         </p>
 
         <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+          <a
+            href="https://school-of-school.onrender.com/"
+            target="_blank"
+            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
+          >
+            <ion-icon name="exit-outline"></ion-icon>
+          </a>
           <a
             href="https://github.com/mikefillar/school-of-school"
             target="_blank"
