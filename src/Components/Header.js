@@ -21,7 +21,7 @@ const Header = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <header className="flex justify-between bg-white items-center px-12 z-10 py-6 shadow sticky top-0">
+    <header className="flex justify-between bg-white items-center px-12 z-50 py-6 shadow sticky top-0">
       <div className="">
         <h1 className="text-gray-800 text-2xl font-extrabold cursor-pointer ease-in duration-100">
           Mike<span className="text-sm font-black">.DEV</span>

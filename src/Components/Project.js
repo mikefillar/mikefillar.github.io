@@ -7,140 +7,147 @@ import project from "../img/project.png";
 const Project = () => {
   return (
     <section
-      className="grid md:grid-cols-2 md:flex-row justify-center items-center m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15  semilarge:gap-20 gap-5 sm:gap-12 md:gap-15 h-full"
+      className="m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15 h-full"
       id="project"
     >
-      <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
-        <a href="https://school-of-school.onrender.com/" target="_blank">
-          <img className="" src={project2} alt="coding" />
-        </a>
-      </div>
-      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left mb-10 md:mb-0">
-        <a
-          href="https://school-of-school.onrender.com/"
-          target="_blank"
-          className="text-blue-500 font-bold text-2xl"
-        >
-          Student Management System
-        </a>
-        <p className="text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
-          This application provides an efficient way to manage students. The
-          application allows users to add new students including relevant data
-          such as student name, gender, address, phone number and email. The
-          users can also update and delete specified student making it easier to
-          manage students.
-        </p>
-
-        <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-          <a
-            href="https://school-of-school.onrender.com/"
-            target="_blank"
-            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
-          >
-            <ion-icon name="exit-outline"></ion-icon>
-          </a>
-          <a
-            href="https://github.com/mikefillar/school-of-school"
-            target="_blank"
-            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
-          >
-            <ion-icon name="logo-github"></ion-icon>
+      {/* student ms */}
+      <div className="relative w-full h-auto md:h-screen py-20 mb-10 md:mb-0">
+        <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600">
+          <a href="https://school-of-school.onrender.com/" target="_blank">
+            <img className="" src={project2} alt="coding" />
           </a>
         </div>
-        <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
-          <li className="text-gray-600 text-sm sm:text-base">Bootstrap5</li>
-          <li className="text-gray-600 text-sm sm:text-base">CSS</li>
-          <li className="text-gray-600 text-sm sm:text-base">Handlebars.JS</li>
-          <li className="text-gray-600 text-sm sm:text-base">Node.JS</li>
-          <li className="text-gray-600 text-sm sm:text-base">Express.JS</li>
-          <li className="text-gray-600 text-sm sm:text-base">Jasonwebtoken</li>
-          <li className="text-gray-600 text-sm sm:text-base">Cookie-parser</li>
-        </ul>
+        <div className="static md:absolute right-0 mt-10 md:mt-0 md:bg-blue-300 rounded md:p-10 bottom-10 z-10 w-full md:w-5/6 xl:w-3/5 flex flex-col gap-4 justify-start text-center md:text-left">
+          <a
+            href="https://school-of-school.onrender.com/"
+            className="text-black font-bold text-2xl hover:scale-105 hover:underline transition-all duration-200 ease-linear"
+          >
+            Student Management System
+          </a>
+          <p className="text-black text-sm sm:text-base semilarge:text-lg large:text-xl">
+            This application provides an efficient way to manage students. The
+            application allows users to add new students including relevant data
+            such as student name, gender, address, phone number and email. The
+            users can also update and delete specified student making it easier
+            to manage students.
+          </p>
+
+          <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+            <a
+              href="https://school-of-school.onrender.com/"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="exit-outline"></ion-icon>
+            </a>
+            <a
+              href="https://github.com/mikefillar/school-of-school"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+          <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
+            <li className="text-black text-sm sm:text-base">Bootstrap5</li>
+            <li className="text-black text-sm sm:text-base">CSS</li>
+            <li className="text-black text-sm sm:text-base">Handlebars.JS</li>
+            <li className="text-black text-sm sm:text-base">Node.JS</li>
+            <li className="text-black text-sm sm:text-base">Express.JS</li>
+            <li className="text-black text-sm sm:text-base">Jasonwebtoken</li>
+            <li className="text-black text-sm sm:text-base">Cookie-parser</li>
+            <li className="text-black text-sm sm:text-base">MySQL</li>
+          </ul>
+        </div>
       </div>
       {/* car rental */}
-      <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
-        <a href="https://mikefillar.github.io/car-rental-ph" target="_blank">
-          <img className="" src={project1} alt="coding" />
-        </a>
-      </div>
-      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left mb-10 md:mb-0">
-        <a
-          href="https://mikefillar.github.io/car-rental-ph"
-          target="_blank"
-          className="text-blue-500 font-bold text-2xl"
-        >
-          Car Rental PH
-        </a>
-        <p className="text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
-          This application provides an efficient way to simplifies booking,
-          allowing you to choose cars, pickup locations, select dates, and view
-          transparent pricing.
-        </p>
-
-        <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+      <div className="relative w-full h-auto md:h-screen py-20">
+        <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600">
+          <a href="https://mikefillar.github.io/car-rental-ph" target="_blank">
+            <img className="" src={project1} alt="coding" />
+          </a>
+        </div>
+        <div className="static md:absolute right-0 mt-10 md:mt-0 md:bg-blue-300 rounded md:p-10 bottom-10 z-10 w-full md:w-4/5 xl:w-3/5 flex flex-col gap-4 justify-start text-center md:text-left mb-10">
           <a
             href="https://mikefillar.github.io/car-rental-ph"
             target="_blank"
-            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
+            className="text-black font-bold text-2xl hover:scale-105 hover:underline transition-all duration-200 ease-linear"
           >
-            <ion-icon name="exit-outline"></ion-icon>
+            Car Rental PH
           </a>
-          <a
-            href="https://github.com/mikefillar/mikefillar.github.io"
-            target="_blank"
-            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
-          >
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
+          <p className="text-black text-sm sm:text-base semilarge:text-lg large:text-xl">
+            This application provides an efficient way to simplifies booking,
+            allowing you to choose cars, pickup locations, select dates, and
+            view transparent pricing.
+          </p>
+
+          <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+            <a
+              href="https://mikefillar.github.io/car-rental-ph"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="exit-outline"></ion-icon>
+            </a>
+            <a
+              href="https://github.com/mikefillar/mikefillar.github.io"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+          <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
+            <li className="text-black text-sm sm:text-base">React.JS</li>
+            <li className="text-black text-sm sm:text-base">TailwindCSS</li>
+            <li className="text-black text-sm sm:text-base">
+              React Router Dom
+            </li>
+          </ul>
         </div>
-        <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
-          <li className="text-gray-600 text-sm sm:text-base">React.JS</li>
-          <li className="text-gray-600 text-sm sm:text-base">TailwindCSS</li>
-          <li className="text-gray-600 text-sm sm:text-base">
-            React Router Dom
-          </li>
-        </ul>
       </div>
       {/* e-magazine */}
-      <div className="flex flex-col text-left gap-6 rounded overflow-hidden shadow-md shadow-gray-600">
-        <a href="https://mikefillar.github.io/newproject" target="_blank">
-          <img className="" src={project} alt="coding" />
-        </a>
-      </div>
-      <div className="w-full flex flex-col gap-4 justify-start text-center md:text-left mb-10 md:mb-0">
-        <a
-          href="https://mikefillar.github.io/newproject/"
-          target="_blank"
-          className="text-blue-500 font-bold text-2xl"
-        >
-          E-Magazine
-        </a>
-        <p className="text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
-          This application is all about the anime called "One Piece".
-        </p>
-
-        <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+      <div className="relative w-full h-auto md:h-screen py-20 flex flex-col justify-start items-start">
+        <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600">
+          <a href="https://mikefillar.github.io/newproject" target="_blank">
+            <img className="" src={project} alt="coding" />
+          </a>
+        </div>
+        <div className="static md:absolute right-0 mt-10 md:mt-0 md:bg-blue-300 rounded md:p-10 bottom-10 z-10 w-full md:w-4/5 xl:w-3/5 flex flex-col gap-4 justify-start text-center md:text-left">
           <a
             href="https://mikefillar.github.io/newproject/"
             target="_blank"
-            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
+            className="text-black font-bold text-2xl hover:scale-105 hover:underline transition-all duration-200 ease-linear"
           >
-            <ion-icon name="exit-outline"></ion-icon>
+            E-Magazine
           </a>
-          <a
-            href="https://github.com/mikefillar/newproject"
-            target="_blank"
-            className="text-3xl text-blue-500 hover:scale-110 transition-all duration-200 ease-linear"
-          >
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
+          <p className="text-black text-sm sm:text-base semilarge:text-lg large:text-xl">
+            This application is all about the anime called "One Piece".
+          </p>
+
+          <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+            <a
+              href="https://mikefillar.github.io/newproject/"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="exit-outline"></ion-icon>
+            </a>
+            <a
+              href="https://github.com/mikefillar/newproject"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+          <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
+            <li className="text-black text-sm sm:text-base">HTML5</li>
+            <li className="text-black text-sm sm:text-base">CSS</li>
+            <li className="text-black text-sm sm:text-base">JavaScript</li>
+            <li className="text-black text-sm sm:text-base">Bootstrap5</li>
+          </ul>
         </div>
-        <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
-          <li className="text-gray-600 text-sm sm:text-base">HTML5</li>
-          <li className="text-gray-600 text-sm sm:text-base">CSS</li>
-          <li className="text-gray-600 text-sm sm:text-base">JavaScript</li>
-          <li className="text-gray-600 text-sm sm:text-base">Bootstrap5</li>
-        </ul>
       </div>
     </section>
   );
