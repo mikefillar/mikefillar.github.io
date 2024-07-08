@@ -91,13 +91,13 @@ const Project = () => {
           </p>
 
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-            <a
+            {/* <a
               href="https://school-of-school.onrender.com/"
               target="_blank"
               className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
             >
               <ion-icon name="exit-outline"></ion-icon>
-            </a>
+            </a> */}
             <a
               href="https://github.com/mikefillar/school-of-school"
               target="_blank"
@@ -140,13 +140,13 @@ const Project = () => {
           </p>
 
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-            <a
+            {/* <a
               href="https://mikefillar.github.io/car-rental-ph"
               target="_blank"
               className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
             >
               <ion-icon name="exit-outline"></ion-icon>
-            </a>
+            </a> */}
             <a
               href="https://github.com/mikefillar/mikefillar.github.io"
               target="_blank"
@@ -184,13 +184,13 @@ const Project = () => {
           </p>
 
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
-            <a
+            {/* <a
               href="https://mikefillar.github.io/newproject/"
               target="_blank"
               className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
             >
               <ion-icon name="exit-outline"></ion-icon>
-            </a>
+            </a> */}
             <a
               href="https://github.com/mikefillar/newproject"
               target="_blank"
