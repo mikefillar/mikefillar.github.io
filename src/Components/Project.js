@@ -3,6 +3,7 @@ import React from "react";
 import project1 from "../img/project1.png";
 import project2 from "../img/project2.png";
 import project from "../img/project.png";
+import project3 from "../img/project3.png";
 
 const Project = () => {
   return (
@@ -10,6 +11,63 @@ const Project = () => {
       className="m-5 p-3 sm:m-7 sm:p-10 md:p-15 semilarge:px-32 semilarge:m-15 h-full"
       id="project"
     >
+      {/* fruitshop */}
+      <div className="relative w-full h-auto md:h-screen py-20 mb-10 md:mb-0">
+        <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600">
+          <a href="http://fruitshopph.42web.io/" target="_blank">
+            <img className="" src={project3} alt="coding" />
+          </a>
+        </div>
+        <div className="static md:absolute right-0 mt-10 md:mt-0 md:bg-blue-300 rounded md:p-10 bottom-10 z-10 w-full md:w-5/6 xl:w-3/5 flex flex-col gap-4 justify-start text-center md:text-left">
+          <a
+            href="http://fruitshopph.42web.io/"
+            className="text-black font-bold text-2xl hover:scale-105 hover:underline transition-all duration-200 ease-linear"
+          >
+            Fruit Shop PH
+          </a>
+          <p className="text-black text-sm sm:text-base semilarge:text-lg large:text-xl">
+            This application has user and admin pages. The application allows
+            the admin to add, update and delete fruits while the users can view
+            added fruits.
+          </p>
+          <p>
+            <b>User Link : </b>
+            <a className="hover:text-white" href="http://fruitshopph.42web.io/">
+              http://fruitshopph.42web.io/
+            </a>
+          </p>
+          <p>
+            <b>Admin Link : </b>
+            <a
+              className="hover:text-white"
+              href="http://fruitshopph.42web.io/admin.php"
+            >
+              http://fruitshopph.42web.io/admin.php
+            </a>
+          </p>
+          <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
+            {/* <a
+              href="https://school-of-school.onrender.com/"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="exit-outline"></ion-icon>
+            </a> */}
+            <a
+              href="https://github.com/mikefillar/fruit-shop-ph"
+              target="_blank"
+              className="text-3xl text-black hover:scale-110 transition-all duration-200 ease-linear"
+            >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </div>
+          <ul className="flex gap-4 justify-center items-center md:justify-start md:items-start flex-wrap">
+            <li className="text-black text-sm sm:text-base">TailwindCSS</li>
+            <li className="text-black text-sm sm:text-base">PHP</li>
+            <li className="text-black text-sm sm:text-base">MySQL</li>
+          </ul>
+        </div>
+      </div>
       {/* student ms */}
       <div className="relative w-full h-auto md:h-screen py-20 mb-10 md:mb-0">
         <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600">
