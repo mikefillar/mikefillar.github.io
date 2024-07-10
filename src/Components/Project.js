@@ -13,7 +13,7 @@ const Project = () => {
     >
       {/* fruitshop */}
       <div className="relative w-full h-auto md:h-screen py-20 mb-10 md:mb-0">
-        <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600 md:hover:z-20 md:hover:scale-105 transition-all duration-400 ease-linear">
+        <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600 md:hover:z-20 md:hover:scale-105 transition-all duration-400 ease-linear ">
           <a href="http://fruitshopph.42web.io/" target="_blank">
             <img className="" src={project3} alt="coding" />
           </a>
