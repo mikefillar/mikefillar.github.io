@@ -85,6 +85,7 @@ const Project = () => {
           <a
             href="https://school-of-school.onrender.com/"
             className="text-black font-bold text-2xl hover:underline transition-all duration-200 ease-linear"
+            target="_blank"
           >
             Student Management System
           </a>
