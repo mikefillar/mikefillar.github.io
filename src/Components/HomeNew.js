@@ -10,12 +10,12 @@ const HomeNew = () => {
     { linkName: "Bootstrap5" },
     { linkName: "TailwindCSS" },
     { linkName: "React.JS" },
-    { linkName: "PHP" },
     { linkName: "Handlebars.JS" },
-    { linkName: "Express.JS" },
     { linkName: "Node.JS" },
-    { linkName: "MySQL" },
+    { linkName: "Express.JS" },
+    { linkName: "PHP" },
     { linkName: "Laravel" },
+    { linkName: "MySQL" },
   ];
   return (
     <main>

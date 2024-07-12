@@ -21,8 +21,8 @@ const About = () => {
         </p>
         <p className=" text-gray-600 text-sm sm:text-base semilarge:text-lg large:text-xl">
           My tech stack currently is HTML, CSS, JavaScript, TailwindCSS,
-          Bootstrap5, React.JS, Handlebars.JS, Node.JS, Express.JS, PHP, MySQL,
-          and Laravel.
+          Bootstrap5, React.JS, Handlebars.JS, Node.JS, Express.JS, PHP,
+          Laravel, and MySQL.
         </p>
       </div>
     </section>
