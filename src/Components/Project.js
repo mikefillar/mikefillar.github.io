@@ -14,7 +14,7 @@ const Project = () => {
       {/* fruitshop */}
       <div className="relative w-full h-auto md:h-screen py-20 mb-10 md:mb-0">
         <div className="static md:absolute left-0 w-full md:w-5/6 rounded shadow-md shadow-gray-600 md:hover:z-20 md:hover:scale-105 transition-all duration-400 ease-linear ">
-          <a href="http://fruitshopph.free.nf/" target="_blank">
+          <a href="http://fruitshopph.42web.io/" target="_blank">
             <img className="" src={project3} alt="coding" />
           </a>
         </div>
@@ -35,20 +35,20 @@ const Project = () => {
             <b>User Link : </b>
             <a
               className="hover:underline"
-              href="http://fruitshopph.free.nf/"
+              href="http://fruitshopph.42web.io/"
               target="_blank"
             >
-              http://fruitshopph.free.nf/
+              http://fruitshopph.42web.io/
             </a>
           </p>
           <p>
             <b>Admin Link : </b>
             <a
               className="hover:underline"
-              href="http://fruitshopph.free.nf/admin.php"
+              href="http://http://fruitshopph.42web.io/admin.php"
               target="_blank"
             >
-              http://fruitshopph.free.nf/admin.php
+              http://http://fruitshopph.42web.io/admin.php
             </a>
           </p>
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
