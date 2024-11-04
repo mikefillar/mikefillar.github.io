@@ -21,7 +21,7 @@ const Project = () => {
         <div className="static md:absolute right-0 mt-10 md:mt-0 md:bg-blue-300 rounded md:p-10 bottom-10 z-10 w-full md:w-5/6 xl:w-3/5 flex flex-col gap-4 justify-start text-center md:text-left">
           <a
             target="_blank"
-            href="http://fruitshopph.free.nf/"
+            href="http://fruitshopph.42web.io/"
             className="text-black font-bold text-2xl hover:underline transition-all duration-200 ease-linear"
           >
             Fruit Shop PH
@@ -45,10 +45,10 @@ const Project = () => {
             <b>Admin Link : </b>
             <a
               className="hover:underline"
-              href="http://http://fruitshopph.42web.io/admin.php"
+              href="http://fruitshopph.42web.io/admin.php"
               target="_blank"
             >
-              http://http://fruitshopph.42web.io/admin.php
+              http://fruitshopph.42web.io/admin.php
             </a>
           </p>
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
