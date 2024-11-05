@@ -38,7 +38,7 @@ const Project = () => {
               href="http://fruitshopph.42web.io/"
               target="_blank"
             >
-              http://fruitshopph.42web.io/
+              //http://fruitshopph.42web.io/
             </a>
           </p>
           <p>
@@ -48,7 +48,7 @@ const Project = () => {
               href="http://fruitshopph.42web.io/admin.php"
               target="_blank"
             >
-              http://fruitshopph.42web.io/admin.php
+              //http://fruitshopph.42web.io/admin.php
             </a>
           </p>
           <div className="flex gap-2 justify-center items-center md:justify-start md:items-start">
